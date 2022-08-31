@@ -17,50 +17,35 @@ body {
 }
 
 .calculator {
-  background-color: #fff;
-  width: 400px;
+  background: linear-gradient(191.34deg, #17181a -4.95%, #17181a 103.74%);
+  border-radius: 39px;
+  padding: 33px 34px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: flex-end;
+  width: 375px;
+  height: 412px;
 }
-.calculator__inner {
-  margin: 20px;
-  border-bottom: 1px solid black;
+
+.calculator__input {
+  color: #fff;
 }
 .calculator__output {
-  /* padding: 40px 0px; */
+  color: #fff;
 }
-
-.output-field {
-  text-align: right;
+.calculator__buttons {
 }
-
-.calculator__entry-field {
-}
-
-.entry-field {
-  text-align: right;
-  font-size: 56px;
-  height: 70px;
-}
-
-.calculator__control {
-}
-
-.control {
-  display: grid;
-  grid-template: repeat(5, 50px) / repeat(4, calc(400px / 4));
-}
-
-.control__button {
-  outline: none;
-  border: none;
-  background-color: initial;
+.buttons__item {
   padding: 0;
   margin: 0;
-  font-size: 24px;
-  font-weight: 100;
+  outline: none;
+  border: none;
+  line-height: 1;
 }
-.bg-gray {
-  background-color: rgb(204, 204, 204);
+.input {
+}
+.output {
+}
+.buttons {
+  display: grid;
 }
